@@ -1,7 +1,7 @@
 {
-  "name": "lightbase",
+  "name": "node.express.base",
   "version": "1.0.0",
-  "description": "Real Time DB",
+  "description": "Node.js Express Base Project",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,11 +1,11 @@
 {
-  "name": "Lightbase",
-  "short_name": "Lightbase",
+  "name": "node.express.base",
+  "short_name": "node.express.base",
   "start_url": "/?utm_source=web_app_manifest",
   "display": "standalone",
   "background_color": "#ed601a",
   "theme_color": "#ed601a",
-  "description": "Lightbase",
+  "description": "node.express.base",
   "icons": [{
     "src": "img/favicon.png",
     "sizes": "192x192",

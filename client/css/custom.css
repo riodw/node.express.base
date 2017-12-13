@@ -3,11 +3,13 @@
 html,
 body {
     background-color: #FFF;
-    font-family: "Roboto", "Century Gothic", "Futura", san-serif;
+    font-family: "Nunito Sans", san-serif;
 }
 
 body {
     height: 100%;
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
 
 i {
@@ -17,8 +19,6 @@ i {
 
 .nav li,
 .pagination,
-.carousel,
-.panel-title a,
 a {
     cursor: pointer;
 }

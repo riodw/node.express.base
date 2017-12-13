@@ -1,0 +1,79 @@
+<!-- ENV: <%= ENV %> -->
+<!-- app branch:  <%= server_commit_branch %> -->
+<!-- app version: <%= server_commit_sha %> -->
+<!-- start time:  <%= server_start_time %> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="Rio Weber">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <% if (ENV == 'production') { %>
+    <title>Lightbase</title>
+    <% } else { %>
+    <title><%= ENV %> Lightbase</title>
+    <% } %>
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="/libs/bootstrap/css/bootstrap.min.css">
+
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link rel='stylesheet' type="text/css" href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,900">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/landing-page.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+
+    <% if (ENV == 'production') { %>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <script>
+
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+
+    </script>
+
+    <noscript>
+        <img height="1" width="1" src="" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    
+    <% } else if (ENV == 'development') { %>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+    <script>
+
+    </script>
+
+    <!-- NO Facebook Pixel Code -->
+    
+    <% } else { %>
+    <!-- NO Google Analytics -->
+    
+    <!-- NO Facebook Pixel Code -->
+    <% } %>
+            
+</head>
+
+<body>
+
+
+</body>
+
+</html>

@@ -373,10 +373,5 @@ if (ENV == 'local') {
     http.createServer(app).listen(port, function () {
         console.log('\nSERVER RUNNING.... http://' + server_IP + ':' + port);
     });
-
-    // For Dev TLS
-    https.createServer(options, app).listen(443, function () {
-        console.log('SERVER RUNNING... https://' + server_IP + ':' + 443);
-    });
 }
 // END - server.js
